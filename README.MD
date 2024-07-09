@@ -8,6 +8,8 @@ Library llama-index sebagai framework RAG, dengan SimpleDirectoryReader, membaca
 
 Interface berupa chatbot powered by Gradio
 
+folder docs berisi dummy invoice contoh
+
 ## Install & run Ollama
 
 Kenapa dalam contoh kali ini menggunakan Ollama?
