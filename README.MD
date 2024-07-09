@@ -27,9 +27,11 @@ Run:
 
 ## Download this source
 
-download zip and extract or simply clone and pull
+download zip and extract or simply git clone
 
 ### install requirements
+
+recomended using venv
 
 > pip install -r requirements.txt
 

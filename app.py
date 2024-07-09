@@ -59,10 +59,10 @@ chat_engine = index.as_chat_engine(
 
 def chat_with_ollama(message, history):
     # debug print memory
-    print(memory.get_all())
+    # print(memory.get_all())
 
     if history == []:
-        print("cleared history, resetting chatbot state")
+        print("# cleared history, resetting chatbot state")
         chat_engine.reset()
 
     streaming_response = chat_engine.stream_chat(message)
